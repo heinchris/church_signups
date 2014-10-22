@@ -11,6 +11,15 @@ handlers:
 
 - url: /components
   static_dir: components
+ 
+- url: /assets
+  static_dir: assets
+  
+- url: /post-service
+  static_dir: post-service
+
+- url: /api
+  static_dir: api
 
 - url: /.*
   script: main.app
